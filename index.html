@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicked</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="logInOut(this)" class="btn">Login</button>
+    </div>
+
+    <div class="container">
+        <div class="col-1">
+            <div class="dic-card">
+                <div class="card-col">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural: ninjas</h3>
+                    <button onclick="alert('ninja was liked!')" class="like-btn"><span>13</span> Likes</button>
+                </div>
+                <h3 class="definition">A practitioner skilled in the <a target="_blank" href="https://en.wikipedia.org/wiki/Japanese">Japanese</a> art of <a target="_blank" href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu.</a></h3>
+            </div>
+
+            <div class="dic-card">
+                <div class="card-col">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural: ninjas</h3>
+                    <button onclick="alert('ninja was liked!')" class="like-btn"><span>37</span> Likes</button>
+                </div>
+                <h3 class="definition">A <a target="_blank" href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a target="_blank" href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus.</h3>
+            </div>
+        </div>
+
+
+
+
+        <div class="col-2">
+            <div class="small-card">
+                <h2>Dojonary is defined by <span>YOU</span></h2>
+                <button onclick="hide(this)" class="add-def-btn">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
